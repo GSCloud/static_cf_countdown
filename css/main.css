@@ -338,7 +338,9 @@ Primary use:
 
 /*---------------------------------------------*/
 .overlay1 {
-  position: relative;
+  /*position: relative;*/
+  position: absolute;
+  top: 0;
   z-index: 1;
 }
 .overlay1::before {
